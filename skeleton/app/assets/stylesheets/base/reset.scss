@@ -1,0 +1,132 @@
+/* PHASE 1: Reset */
+
+
+html, header, h1, a,
+ul, li, strong, main, button, i,
+section, img, div, h2, p, form,
+fieldset, label, input, textarea,
+span, article, footer, time, small {
+  // width: 100%;
+  // margin:15px;
+  // margin-left: 10px;
+  // margin-right: 10px;
+  
+  
+
+  display: inline-block;
+  // padding: 5px;
+  // display: flex;
+  // justify-content: center;
+  // border: 5px;
+  // outline: 5px;
+  // font-family: sans-serif;
+  // color:
+  // text-align: left;
+  // text-decoration:
+  // vertical-align: center;
+  // box-sizing: inherit;
+  // background:
+}
+
+ol, ul {
+  list-style: none;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+    font-family: serif;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+
+input[type="password"],
+input[type="email"],
+input[type="text"],
+input[type="submit"],
+textarea,
+button {
+  /*
+  Get rid of native styling. Read more here:
+  http://css-tricks.com/almanac/properties/a/appearance/
+  */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+button,
+input[type="submit"] {
+  cursor: pointer;
+}
+
+/* Clearfix */
+.clearfix {
+  overflow: auto;
+}
+
+.group:after {
+  // ...
+}
+
+.main-nav {
+  width: 100%;
+  font-family: sans-serif;
+  font-weight: bold;
+  position: absolute;
+
+  
+}
+.left-nav {
+  float: left;
+  margin-left: 130px;
+  
+
+}
+
+#sections-sidebar-btn {
+  padding: 5px;
+}
+
+#search-modal-btn {
+  padding: 5px;
+}
+
+#sections-sidebar-btn:hover{
+  background-color: #c2c8d1;
+  
+}
+
+#search-modal-btn:hover{
+  background-color: #c2c8d1;
+
+}
+
+.right-nav {
+  // width: 25%;
+  float: right;
+  margin-right: 130px;
+
+
+}
+.button {
+  background: #477999;
+  color: white;
+  border-radius: 4px;
+  font-weight: bold;
+  height: 25px;
+}
+
+
+.button:hover{
+  background-color: #6490d6;
+}
+
+
+
+
+
+
+
