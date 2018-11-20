@@ -33,7 +33,7 @@ ol, ul {
 }
 
 body {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     font-family: serif;
     font-size: 12px;
@@ -119,6 +119,9 @@ input[type="submit"] {
   height: 25px;
 }
 
+#gear-dropdown {
+  display: block;
+}
 
 .button:hover{
   background-color: #6490d6;
