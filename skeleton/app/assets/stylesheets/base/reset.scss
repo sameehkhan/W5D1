@@ -1,7 +1,7 @@
 /* PHASE 1: Reset */
 
 
-html, header, h1, a,
+html, body, header, h1, a,
 ul, li, strong, main, button, i,
 section, img, div, h2, p, form,
 fieldset, label, input, textarea,
@@ -32,14 +32,7 @@ ol, ul {
   list-style: none;
 }
 
-body {
-    width: 100%;
-    margin: 0 auto;
-    font-family: serif;
-    font-size: 12px;
-    display: flex;
-    justify-content: center;
-}
+
 
 
 input[type="password"],
@@ -72,16 +65,18 @@ input[type="submit"] {
 }
 
 .main-nav {
+  display: flex;
+  justify-content: space-between;
   width: 100%;
   font-family: sans-serif;
   font-weight: bold;
-  position: absolute;
+  // position: absolute;
 
   
 }
 .left-nav {
   float: left;
-  margin-left: 130px;
+  // margin-left: 130px;
   
 
 }
@@ -107,7 +102,7 @@ input[type="submit"] {
 .right-nav {
   // width: 25%;
   float: right;
-  margin-right: 130px;
+  // margin-right: 130px;
 
 
 }
@@ -127,6 +122,16 @@ input[type="submit"] {
   background-color: #6490d6;
 }
 
+.nav-section {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.partials {
+  display: flex;
+  flex-direction: column;
+}
 
 
 
